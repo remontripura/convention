@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- bootstrap css file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/42f3d505c3.js" crossorigin="anonymous"></script>
+  </head>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .font{
+      font-weight: 700;
+      color: #3F87F5;
+    }
+    .primary-font{
+      font-weight: 700;
+      font-size: 45px;
+    }
+    li{
+      text-decoration: none;
+      list-style: none;
+    }
+  </style>
+  <body>
+    <!-- navbar start -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid mx-5">
+          <a class="navbar-brand" href="#">Abacus Convention Center</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mx-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+      <!-- carousel start -->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./images/banner.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="text-white primary-font ">The perfect venue for your next event</h5>
+              <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit </p>
+              <button class="btn btn-light font">Book Now</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- carousel end -->
+    </header>
+    <section>
+      <div class="container mt-5 ">
+        <div class="row">
+          <div class="wedding d-flex align-items-center justify-content-center">
+            <div class="col-6">
+              <img class="img-fluid" src="./images/wedding.png" alt="">
+            </div>
+            <div class="col-6">
+              <h2 class="font-weight-bold">Every moment is Precious </h2>
+              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              <button class="btn btn-info text-white font">Explore our album <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Package Item -->
+    <section>
+      <div class="container mt-5">
+        <div>
+          <h3 class="text-center primary-font my-5">Our Package</h3>
+        </div>
+        <div class="row">
+            <div class="col-3 p-2 packages-item g-5 text-right">
+              <div>
+                <h2>$300</h2>
+                <h3>Business Fair</h3>
+                <p>For most businesses event like book fair, craft fair.</p>
+              </div>
+              <div>
+                <ul>
+                  <li><i class="fa-solid fa-check"></i>limited space access</li>
+                  <li> <i class="fa-solid fa-check"></i>Secuirty facility</li>
+                  <li><i class="fa-solid fa-check"></i>event support</li>
+                  <li><i class="fa-solid fa-check"></i>Decoration design</li>
+                  <li><i class="fa-solid fa-check"></i>Per day bill</li>
+                </ul>
+                <button>Choose Plan</button>
+              </div>
+            </div>
+            <div class="col-3 p3 packages-item">
+              <div>
+                <h2>$300</h2>
+                <h3>Business Fair</h3>
+                <p>For most businesses event like book fair, craft fair.</p>
+              </div>
+              <div>
+                <ul>
+                  <li>limited space access</li>
+                  <li>Secuirty facility</li>
+                  <li>event support</li>
+                  <li>Decoration design</li>
+                  <li>Per day bill</li>
+                </ul>
+                <button>Choose Plan</button>
+              </div>
+            </div>
+            <div class="col-3 p3 packages-item">
+              <div>
+                <h2>$300</h2>
+                <h3>Business Fair</h3>
+                <p>For most businesses event like book fair, craft fair.</p>
+              </div>
+              <div>
+                <ul>
+                  <li>limited space access</li>
+                  <li>Secuirty facility</li>
+                  <li>event support</li>
+                  <li>Decoration design</li>
+                  <li>Per day bill</li>
+                </ul>
+                <button>Choose Plan</button>
+              </div>
+            </div>
+            <div class="col-3 p3 packages-item">
+              <div>
+                <h2>$300</h2>
+                <h3>Business Fair</h3>
+                <p>For most businesses event like book fair, craft fair.</p>
+              </div>
+              <div>
+                <ul>
+                  <li><i class="fa fa-solid fa-check"></i>limited space access</li>
+                  <li>Secuirty facility</li>
+                  <li>event support</li>
+                  <li>Decoration design</li>
+                  <li>Per day bill</li>
+                </ul>
+                <button>Choose Plan</button>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
